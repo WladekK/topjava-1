@@ -16,7 +16,7 @@ public class UserServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         log.debug("redirect to users");
-
+// todo implement CRUD for meal in memory
 //        request.getRequestDispatcher("/users.jsp").forward(request, response);
         response.sendRedirect("users.jsp");
     }
