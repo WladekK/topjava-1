@@ -22,6 +22,7 @@ public class MealServlet extends HttpServlet {
 
     private MealRepository repository;
 
+    //todo homework optional
     @Override
     public void init(ServletConfig config) throws ServletException {
         super.init(config);
