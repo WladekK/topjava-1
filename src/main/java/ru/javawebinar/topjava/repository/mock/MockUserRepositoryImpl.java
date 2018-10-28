@@ -13,6 +13,7 @@ import java.util.List;
 public class MockUserRepositoryImpl implements UserRepository {
     private static final Logger log = LoggerFactory.getLogger(MockUserRepositoryImpl.class);
 
+    //todo homework
     @Override
     public boolean delete(int id) {
         log.info("delete {}", id);
