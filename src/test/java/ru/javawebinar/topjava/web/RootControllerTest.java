@@ -11,6 +11,7 @@ import static ru.javawebinar.topjava.model.AbstractBaseEntity.START_SEQ;
 
 class RootControllerTest extends AbstractControllerTest {
 
+    //todo HW-7
     @Test
     void testUsers() throws Exception {
         mockMvc.perform(get("/users"))
