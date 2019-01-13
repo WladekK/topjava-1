@@ -38,7 +38,7 @@ class MealRestControllerTest extends AbstractControllerTest {
                 .andExpect(result -> assertMatch(readFromJsonMvcResult(result, Meal.class), ADMIN_MEAL1));
     }
 
-
+//todo HW-10-Optional
     @Test
     void testGetUnauth() throws Exception {
         mockMvc.perform(get(REST_URL + MEAL1_ID))
